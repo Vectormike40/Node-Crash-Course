@@ -35,7 +35,3 @@ fs.rename(
     }
 )
 
-fs.writeFile('url_demo.js', {recursive: true}, (err) => {
-    if (err) throw err;
-    console.log('File')
-})
