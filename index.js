@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 
+
 // Create a Folder 
 // fs.mkdir(path.join(__dirname, '/test'), {}, err => {
 //     if (err) throw err;
@@ -26,11 +27,11 @@ const path = require('path');
 // })
 
 // Rename file
-fs.rename(
-    path.join(__dirname, '/test', 'hello.txt'),
-    path.join(__dirname, '/test', 'helloworld.txt'),
-    err => {
-        if (err) throw err;
-        console.log('File renamed')
-    }
-)
+// fs.rename(
+//     path.join(__dirname, '/test', 'hello.txt'),
+//     path.join(__dirname, '/test', 'helloworld.txt'),
+//     err => {
+//         if (err) throw err;
+//         console.log('File renamed')
+//     }
+// )
