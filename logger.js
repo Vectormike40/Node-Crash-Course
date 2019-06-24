@@ -1,4 +1,4 @@
-const EventEmitter = require('events');
+const EventEmitter from require('events');
 const uuid = require('uuid')
 
 class Logger extends EventEmitter {
